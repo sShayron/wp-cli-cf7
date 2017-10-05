@@ -10,12 +10,6 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 * Author URI: http://www.resultate.com.br
 */
 
-use WP_CLI;
-$autoload = dirname( __FILE__ ) . '/vendor/autoload.php';
-if ( file_exists( $autoload ) ) {
-	require_once $autoload;
-}
-
 class Cf7Command  extends WP_CLI_Command {
 
 	public function create($args, $assoc_args) {
@@ -23,4 +17,4 @@ class Cf7Command  extends WP_CLI_Command {
 	}
 }
 
-WP_CLI::add_command( 'test', 'Cf7Command' );
+WP_CLI::add_command( 'teste', 'Cf7Command' );
