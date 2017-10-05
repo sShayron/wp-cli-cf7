@@ -11,7 +11,7 @@
             "email": "shayron.aguiar@gmail.com"
         }
     ],
-    "minimum-stability": "",
+    "minimum-stability": "dev-master",
     "extra": {
         "commands": [
             "teste"
