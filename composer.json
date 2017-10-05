@@ -11,10 +11,10 @@
             "email": "shayron.aguiar@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "",
     "extra": {
         "commands": [
-            "cf7 create"
+            "teste"
         ]
     }
 }
