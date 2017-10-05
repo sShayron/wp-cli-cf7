@@ -1,5 +1,5 @@
 {
-    "name": "wp-cli-cf7",
+    "name": "sShayron/wp-cli-cf7",
     "description": "Create or update contact form 7 using wp-cli",
     "require": {},
     "require-dev": {
